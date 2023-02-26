@@ -2,7 +2,7 @@ Curso Angular Gratuito
 =================
 
 [CHANGELOG]
-CRUD XML Angular Java 8 Spring Boot 2 
+CRUD XML Angular Java 8 Spring Boot 2 put post insomnia rest client
 https://github.com/luismendes070/crud-xml-git-pull/tree/master
 
 [![Open in Visual Studio Codespaces](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=Curso%20Angular&repo=loiane/curso-angular)
