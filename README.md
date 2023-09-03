@@ -2,6 +2,12 @@ Curso Angular Gratuito
 =================
 
 [CHANGELOG]
+    
+    // Angular HTTP API | Part 27 - Sending PATCH Request 2 https://youtu.be/if90tYBdCsg
+    patchXml(course:Course): Observable<Course>{
+      return this.http.patch<Course>('${this.apiUrl}/courses/id/${courses.id}', course);
+    }
+    
 CRUD XML Angular Java 8 Spring Boot 2 put post insomnia rest client
 https://github.com/luismendes070/crud-xml-git-pull/tree/master
 
