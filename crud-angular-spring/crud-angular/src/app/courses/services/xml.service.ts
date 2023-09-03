@@ -6,6 +6,8 @@ import { Injectable } from '@angular/core';
 })
 export class XmlService {
 
+  apiUrl:string = '/api/xml';
+
   // ng g s courses/services/xml
   // constructor() { } // end empty constructor
 
