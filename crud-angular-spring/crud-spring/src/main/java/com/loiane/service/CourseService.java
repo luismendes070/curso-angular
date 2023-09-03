@@ -11,6 +11,7 @@ import com.loiane.dto.CourseDTO;
 import com.loiane.dto.mapper.CourseMapper;
 import com.loiane.exception.RecordNotFoundException;
 import com.loiane.repository.CourseRepository;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
@@ -39,7 +40,7 @@ public class CourseService {
                 .collect(Collectors.toList());
     }
 
-    public CourseDTO findById(@XmlPathVariable @NotNull @Positive Long id) {
+    public CourseDTO findById(@PathVariable @NotNull @Positive Long id) {
         return courseRepository.findById(id).map(courseMapper::toDTO)
                 .orElseThrow(() -> new RecordNotFoundException(id));
     }

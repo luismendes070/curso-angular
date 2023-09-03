@@ -20,6 +20,8 @@ public class CrudSpringApplication {
 		}
 		catch (Exception e){
 
+			e.printStackTrace();
+
 		}finally {
 
 		}

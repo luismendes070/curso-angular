@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.loiane</groupId>
 	<artifactId>crud-spring</artifactId>
-	<version>0.1.4-SNAPSHOT</version>
+	<version>0.2.0-SNAPSHOT</version>
 	<name>crud-spring</name>
 	<description>Projeto exemplo CRUD Spring + Angular</description>
 	<properties>

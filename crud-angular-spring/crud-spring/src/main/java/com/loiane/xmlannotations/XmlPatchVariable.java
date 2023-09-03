@@ -2,6 +2,6 @@ package com.loiane.xmlannotations;
 
 public @interface XmlPatchVariable {
 
-    public XmlDataPatcher xmlPatchVariable;
+    public XmlDataPatcher xmlPatchVariable = null ; // | new XmlDataPatcher();
 
 }// end class

@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 public class XmlController {
 
     @PatchMapping(value = "/{id}", consumes = MediaType.APPLICATION_XML_VALUE, produces = MediaType.APPLICATION_XML_VALUE)
-    public ResponseEntity<XmlData> patchXmlData(@PathVariable Long id, @PatchVariable XmlData xmlData) {
+    public ResponseEntity<XmlData> patchXmlData(@PathVariable Long id, @PathVariable XmlData xmlData) {
         // Implement the logic to update the XML data based on the id
         return ResponseEntity.ok(xmlData);
     }
